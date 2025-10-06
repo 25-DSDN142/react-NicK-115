@@ -21,7 +21,7 @@ let detectionFrame = 0;
 
 const performancePresets = {
   low: { skipFrames: 3, targetFPS: 24},
-  balanced: { skipFrames: 2, targetFPS: 30},
+  balanced: { skipFrames: 1, targetFPS: 30},
   high: { skipFrames: 1, targetFPS: 60}
 };
 
